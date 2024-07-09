@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+.navbar {
+  position: sticky;
+  width: 100%;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--theme);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-heading {
+  color: #fff;
+  font-weight: 500;
+  margin: 0px;
+  font-size: 1.2rem;
+}
+.navbar-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #e3e3e3;
+  gap: 0.7rem;
+  font-weight: 500;
+  margin: 0px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.txt-name{
+  font-weight: 600 !important;
+  font-family: "Playwrite GB S", cursive !important;
+  font-size: 1.3rem !important;
+}
+
+.txt-name:hover{
+  color: #96aaf8 !important;
+  transition: all 0.3s !important;
+}
+
+.txt-logout:hover{
+  color: #ee2929 !important;
+  transition: all 0.3s !important;
+}
+
+@media only screen and (max-width: 550px) {
+  .navbar-heading {
+    color: #fff;
+    font-weight: 500;
+    margin: 0px;
+    font-size: 0.8rem !important;
+  }
+  .navbar-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #e3e3e3;
+    gap: 0.7rem;
+    font-weight: 500;
+    margin: 0px;
+    font-size: 0.7rem !important;
+    cursor: pointer;
+  }
+  .txt-name{
+    font-weight: 600 !important;
+    font-family: "Playwrite GB S", cursive !important;
+    font-size: 0.9rem !important;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .navbar-heading {
+    color: #fff;
+    font-weight: 500;
+    margin: 0px;
+    font-size: 0.7rem !important;
+  }
+  .navbar-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #e3e3e3;
+    gap: 0.7rem;
+    font-weight: 500;
+    margin: 0px;
+    font-size: 0.6rem !important;
+    cursor: pointer;
+  }
+  .txt-name{
+    font-weight: 600 !important;
+    font-family: "Playwrite GB S", cursive !important;
+    font-size: 0.8rem !important;
+  }
+}
